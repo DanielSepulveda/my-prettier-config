@@ -1,0 +1,29 @@
+{
+  "name": "@danielsepulveda/prettier-config",
+  "version": "0.1.0",
+  "description": "Daniel Sepulveda's prettier config",
+  "license": "MIT",
+  "author": "Daniel Sepulveda",
+  "homepage": "https://github.com/DanielSepulveda/my-prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielSepulveda/my-prettier-config"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.1",
+    "prettier-package-json": "^2.6.0",
+    "standard-version": "^9.3.1"
+  },
+  "keywords": [
+    "config",
+    "javascript",
+    "prettier"
+  ]
+}
